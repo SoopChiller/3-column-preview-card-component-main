@@ -1,0 +1,108 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5.5rem 1.5rem;
+  justify-content: center;
+  align-items: center;  
+}
+
+.card {
+  width: 20.4375rem;
+  min-height: 27.625rem;
+  flex-shrink: 0;
+  padding-top: 3rem;
+  padding-left: 3.06rem;
+}
+
+.sedan {
+  background: #E28625;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.suv {
+  background: #006971;
+}
+
+.luxury {
+  background: #004140;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+ h2 {
+  color: #F2F2F2;
+  font-family: Big Shoulders Display;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+p {
+  color: #FFF;
+  font-family: Lexend Deca;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem; 
+  opacity: 0.75;
+  width: 14.4375rem;
+  margin-top: 1.56rem;
+}
+
+button {
+  width: 9.125rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  background: #F2F2F2;
+  border: none;
+  font-family: Lexend Deca;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  margin-top: 1.56rem;
+}
+#sedan-button {
+  color: #E28625;
+}
+
+#suv-button {
+  color: #006971; 
+}
+
+#luxury-button {
+  color: #004140; 
+}
+
+.car {
+  margin-top: 2.19rem;
+}
