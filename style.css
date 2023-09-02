@@ -35,6 +35,10 @@ img, picture, svg, video {
   padding-left: 3.06rem;
 }
 
+.car {
+  margin-top: 2.19rem;
+}
+
 .sedan {
   background: #E28625;
   border-top-left-radius: 0.5rem;
@@ -99,10 +103,26 @@ button {
   color: #004140; 
 }
 
-.car {
-  margin-top: 2.19rem;
+#sedan-button:active {
+  background-color: #E28625;
+  border-radius: 1.5625rem;
+  border: 2px solid #FFF;
+  color: #FFF;
 }
 
+#suv-button:active {
+  background-color: #006971;
+  border-radius: 1.5625rem;
+  border: 2px solid #FFF;
+  color: #FFF;
+}
+
+#luxury-button:active {
+  background-color: #004140;
+  border-radius: 1.5625rem;
+  border: 2px solid #FFF;
+  color: #FFF;
+}
 
 @media only screen and (min-width: 820px) {
   .card-container {
@@ -150,5 +170,9 @@ button {
     border-radius: 1.5625rem;
     border: 2px solid #FFF;
     color: #FFF;
+  }
+
+  button {
+    cursor: pointer;
   }
 }

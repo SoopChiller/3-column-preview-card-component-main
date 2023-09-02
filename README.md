@@ -19,12 +19,12 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./mobile-state.png)
+![](./desktop-state.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://soopchiller.github.io/3-column-preview-card-component-main/
 
 ## My process
 
