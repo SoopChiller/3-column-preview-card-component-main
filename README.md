@@ -9,17 +9,11 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-
-
-
-
 
 
 ### Screenshot
 
-![](./images/mobile-state.pngmobile-state.png)
+![](./images/mobile-state.png)
 ![](./images/desktop-state.png)
 
 ### Links
@@ -33,14 +27,5 @@
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### What I learned
-
-
-
-### Continued development
-
-
-
 
 
