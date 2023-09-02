@@ -19,8 +19,8 @@
 
 ### Screenshot
 
-![](./mobile-state.png)
-![](./desktop-state.png)
+![](./images/mobile-state.pngmobile-state.png)
+![](./images/desktop-state.png)
 
 ### Links
 
