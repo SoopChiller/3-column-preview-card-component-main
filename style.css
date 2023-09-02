@@ -10,7 +10,6 @@
 
 body {
   min-height: 100vh;
-  background-color: #FFF;
 }
 
 img, picture, svg, video {
@@ -102,4 +101,54 @@ button {
 
 .car {
   margin-top: 2.19rem;
+}
+
+
+@media only screen and (min-width: 820px) {
+  .card-container {
+    flex-direction: row;
+    padding: 10.69rem 16.25rem 8.06rem 16.25rem;
+  }
+
+  .card {
+    width: 19.1875rem;
+    height: 31.25rem;
+    flex-shrink: 0;
+  }
+
+  .sedan {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  .luxury {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 3.9rem;
+    width: 13.25rem;
+  }
+
+  #sedan-button:active {
+    background-color: #E28625;
+    border-radius: 1.5625rem;
+    border: 2px solid #FFF;
+    color: #FFF;
+  }
+
+  #suv-button:active {
+    background-color: #006971;
+    border-radius: 1.5625rem;
+    border: 2px solid #FFF;
+    color: #FFF;
+  }
+
+  #luxury-button:active {
+    background-color: #004140;
+    border-radius: 1.5625rem;
+    border: 2px solid #FFF;
+    color: #FFF;
+  }
 }
