@@ -17,6 +17,11 @@ img, picture, svg, video {
   max-width: 100%;
 }
 
+img {
+  width: 4rem;
+  height: 2.5rem;
+}
+
 .card-container {
   display: flex;
   justify-content: center;
@@ -55,7 +60,7 @@ img, picture, svg, video {
   border-bottom-right-radius: 0.5rem;
 }
 
- h2 {
+ h1 {
   color: #F2F2F2;
   font-family: Big Shoulders Display;
   font-size: 2.5rem;
